@@ -1,0 +1,45 @@
+{
+  "name": "Raindrop Color Scheme",
+  "globals":
+  {
+    "background": "#f5f5f5",
+    "foreground": "#333333",
+    "caret": "#54494b",
+    "selection": "#c9d0d9",
+  },
+  "rules":
+  [
+    {
+      "scope": "comment",
+      "foreground": "#c4b7d7",
+    },
+    {
+      "scope": "keyword",
+      "foreground": "#4b69c6",
+    },
+    {
+      "scope": "storage",
+      "foreground": "#4b69c6",
+    },
+    {
+      "scope": "entity.name",
+      "foreground": "#7a3e9d",
+    },
+    {
+      "scope": "entity.other.inherited-class",
+      "foreground": "#7a3e9d",
+    },
+    {
+      "scope": "string",
+      "foreground": "#448c27",
+    },
+    {
+      "scope": "constant.numeric",
+      "foreground": "#9c5d27",
+    },
+    {
+      "scope": "invalid",
+      "foreground": "#cd3131"
+    },
+  ],
+}
