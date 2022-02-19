@@ -1,0 +1,23 @@
+{
+  "background": "#F5F5F5",
+  "black": "#333333",
+  "blue": "#4B69C6",
+  "brightBlack": "#333333",
+  "brightBlue": "#4B69C6",
+  "brightCyan": "#91B3E0",
+  "brightGreen": "#448C27",
+  "brightPurple": "#7A3E9D",
+  "brightRed": "#CD3131",
+  "brightWhite": "#F5F5F5",
+  "brightYellow": "#9C5D27",
+  "cursorColor": "#54494B",
+  "cyan": "#91B3E0",
+  "foreground": "#333333",
+  "green": "#448C27",
+  "name": "Raindrop",
+  "purple": "#7A3E9D",
+  "red": "#CD3131",
+  "selectionBackground": "#C9D0D9",
+  "white": "#F5F5F5",
+  "yellow": "#9C5D27"
+}
