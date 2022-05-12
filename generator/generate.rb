@@ -24,23 +24,16 @@ def partial(name, values)
   erb.result_with_hash(values)
 end
 
-Dir["#{__dir__}/templates/*.erb"].each do |f|
-  out_ext = File.basename(f, '.erb')
-  out_path = File.join(__dir__, '..', 'Raindrop.' + out_ext)
+Dir.chdir "#{__dir__}/templates" do
+  Dir["**/*.erb"].each do |erb_path|
+    next if erb_path.include?('_partials/')
 
-  puts "Rendering #{f} to #{out_path}"
+    out_name = erb_path[0...-4]
+    out_path = File.absolute_path(File.join(__dir__, '..', out_name))
+    puts "Rendering #{erb_path} to #{out_path}"
 
-  erb = ERB.new(File.read(f))
-  File.write(out_path, erb.result(binding))
-end
-
-Dir["#{__dir__}/templates/hyper/*.erb"].each do |f|
-  out_name = File.basename(f, '.erb')
-  out_path = File.join(__dir__, '..', 'hyper', out_name)
-
-  puts "Rendering #{f} to #{out_path}"
-
-  erb = ERB.new(File.read(f))
-  FileUtils.mkdir_p(File.dirname(out_path))
-  File.write(out_path, erb.result(binding))
+    erb = ERB.new(File.read(erb_path))
+    FileUtils.mkdir_p(File.dirname(out_path))
+    File.write(out_path, erb.result(binding))
+  end
 end
