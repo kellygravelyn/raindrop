@@ -4,7 +4,7 @@
   {
     "background": "#f5f5f5",
     "foreground": "#333333",
-    "caret": "#54494b",
+    "caret": "#635c6d",
     "selection": "#c9d0d9",
   },
   "rules":
@@ -15,31 +15,31 @@
     },
     {
       "scope": "keyword",
-      "foreground": "#4b69c6",
+      "foreground": "#5f7acc",
     },
     {
       "scope": "storage",
-      "foreground": "#4b69c6",
+      "foreground": "#5f7acc",
     },
     {
       "scope": "entity.name",
-      "foreground": "#7a3e9d",
+      "foreground": "#7f4f9b",
     },
     {
       "scope": "entity.other.inherited-class",
-      "foreground": "#7a3e9d",
+      "foreground": "#7f4f9b",
     },
     {
       "scope": "string",
-      "foreground": "#448c27",
+      "foreground": "#65a34c",
     },
     {
       "scope": "constant.numeric",
-      "foreground": "#9c5d27",
+      "foreground": "#bca46d",
     },
     {
       "scope": "invalid",
-      "foreground": "#cd3131"
+      "foreground": "#cc5555"
     },
   ],
 }
