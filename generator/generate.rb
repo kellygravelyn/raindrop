@@ -1,4 +1,5 @@
 require 'erb'
+require 'fileutils'
 require_relative 'color'
 
 BLACK = Color.new('#333333')
@@ -24,12 +25,22 @@ def partial(name, values)
 end
 
 Dir["#{__dir__}/templates/*.erb"].each do |f|
-  erb_path = File.join(__dir__, 'templates', 'sublime-theme.erb')
   out_ext = File.basename(f, '.erb')
   out_path = File.join(__dir__, '..', 'Raindrop.' + out_ext)
 
-  puts "Rendering #{erb_path} to #{out_path}"
+  puts "Rendering #{f} to #{out_path}"
 
   erb = ERB.new(File.read(f))
+  File.write(out_path, erb.result(binding))
+end
+
+Dir["#{__dir__}/templates/hyper/*.erb"].each do |f|
+  out_name = File.basename(f, '.erb')
+  out_path = File.join(__dir__, '..', 'hyper', out_name)
+
+  puts "Rendering #{f} to #{out_path}"
+
+  erb = ERB.new(File.read(f))
+  FileUtils.mkdir_p(File.dirname(out_path))
   File.write(out_path, erb.result(binding))
 end
