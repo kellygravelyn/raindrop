@@ -3,7 +3,7 @@ exports.decorateConfig = (config) => {
     backgroundColor: '#f5f5f5',
     foregroundColor: '#333333',
     cursorColor: '#635c6d',
-    selectionColor: '#c9d0d9',
+    selectionColor: '#c7e3ed',
     borderColor: '#f5f5f5',
     css: `
       ${config.css || ''}
@@ -31,8 +31,8 @@ exports.decorateConfig = (config) => {
       lightBlue: '#5f7acc',
       magenta: '#c4b7d7',
       lightMagenta: '#c4b7d7',
-      cyan: '#c9d0d9',
-      lightCyan: '#c9d0d9',
+      cyan: '#91cce0',
+      lightCyan: '#91cce0',
       white: '#f5f5f5',
       lightWhite: '#f5f5f5',
     },
