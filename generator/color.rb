@@ -36,4 +36,21 @@ class Color
   def blue
     ColorComponent.new(@hex[5..6])
   end
+
+  PURPLE = Color.new('#c4b7d7')
+  YELLOW = Color.new('#bca46d') # More of an orange but 🤷🏻‍♀️
+  RED = Color.new('#cc5555')
+  GREEN = Color.new('#65a34c')
+  BLUE = Color.new('#5f7acc')
+  CYAN = Color.new('#91cce0')
+  SELECTION = Color.new('#c7e3ed')
+  DARK_PURPLE = Color.new('#7f4f9b')
+  DARK_GRAY_PURPLE = Color.new('#635c6d')
+  WHITE = Color.new('#f5f5f5')
+  LIGHT_GRAY = Color.new('#b5b5b5')
+  BLACK = Color.new('#333333')
+
+  CURSOR = DARK_GRAY_PURPLE
+  BACKGROUND = WHITE
+  FOREGROUND = BLACK
 end

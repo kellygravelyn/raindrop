@@ -2,44 +2,44 @@
   "name": "Raindrop Color Scheme",
   "globals":
   {
-    "background": "<%= BACKGROUND %>",
-    "foreground": "<%= FOREGROUND %>",
-    "caret": "<%= CURSOR %>",
-    "selection": "<%= SELECTION %>",
+    "background": "<%= Color::BACKGROUND %>",
+    "foreground": "<%= Color::FOREGROUND %>",
+    "caret": "<%= Color::CURSOR %>",
+    "selection": "<%= Color::SELECTION %>",
   },
   "rules":
   [
     {
       "scope": "comment",
-      "foreground": "<%= PURPLE %>",
+      "foreground": "<%= Color::PURPLE %>",
     },
     {
       "scope": "keyword",
-      "foreground": "<%= BLUE %>",
+      "foreground": "<%= Color::BLUE %>",
     },
     {
       "scope": "storage",
-      "foreground": "<%= BLUE %>",
+      "foreground": "<%= Color::BLUE %>",
     },
     {
       "scope": "entity.name",
-      "foreground": "<%= DARK_PURPLE %>",
+      "foreground": "<%= Color::DARK_PURPLE %>",
     },
     {
       "scope": "entity.other.inherited-class",
-      "foreground": "<%= DARK_PURPLE %>",
+      "foreground": "<%= Color::DARK_PURPLE %>",
     },
     {
       "scope": "string",
-      "foreground": "<%= GREEN %>",
+      "foreground": "<%= Color::GREEN %>",
     },
     {
       "scope": "constant.numeric",
-      "foreground": "<%= YELLOW %>",
+      "foreground": "<%= Color::YELLOW %>",
     },
     {
       "scope": "invalid",
-      "foreground": "<%= RED %>"
+      "foreground": "<%= Color::RED %>"
     },
   ],
 }

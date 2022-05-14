@@ -1,40 +1,40 @@
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
-    backgroundColor: '<%= BACKGROUND %>',
-    foregroundColor: '<%= FOREGROUND %>',
-    cursorColor: '<%= CURSOR %>',
-    selectionColor: '<%= SELECTION %>',
-    borderColor: '<%= BACKGROUND %>',
+    backgroundColor: '<%= Color::BACKGROUND %>',
+    foregroundColor: '<%= Color::FOREGROUND %>',
+    cursorColor: '<%= Color::CURSOR %>',
+    selectionColor: '<%= Color::SELECTION %>',
+    borderColor: '<%= Color::BACKGROUND %>',
     css: `
       ${config.css || ''}
 
       .header_appTitle, .tabs_title {
-        color: <%= FOREGROUND %>;
+        color: <%= Color::FOREGROUND %>;
       }
       .header_shape {
-        color: <%= FOREGROUND %>;
+        color: <%= Color::FOREGROUND %>;
       }
       *::-webkit-scrollbar-thumb {
         background: rgba(196, 183, 215, 0.4);
       }
     `,
     colors: {
-      black: '<%= BLACK %>',
-      lightBlack: '<%= BLACK %>',
-      red: '<%= RED %>',
-      lightRed: '<%= RED %>',
-      green: '<%= GREEN %>',
-      lightGreen: '<%= GREEN %>',
-      yellow: '<%= YELLOW %>',
-      lightYellow: '<%= YELLOW %>',
-      blue: '<%= BLUE %>',
-      lightBlue: '<%= BLUE %>',
-      magenta: '<%= PURPLE %>',
-      lightMagenta: '<%= PURPLE %>',
-      cyan: '<%= CYAN %>',
-      lightCyan: '<%= CYAN %>',
-      white: '<%= WHITE %>',
-      lightWhite: '<%= WHITE %>',
+      black: '<%= Color::BLACK %>',
+      lightBlack: '<%= Color::BLACK %>',
+      red: '<%= Color::RED %>',
+      lightRed: '<%= Color::RED %>',
+      green: '<%= Color::GREEN %>',
+      lightGreen: '<%= Color::GREEN %>',
+      yellow: '<%= Color::YELLOW %>',
+      lightYellow: '<%= Color::YELLOW %>',
+      blue: '<%= Color::BLUE %>',
+      lightBlue: '<%= Color::BLUE %>',
+      magenta: '<%= Color::PURPLE %>',
+      lightMagenta: '<%= Color::PURPLE %>',
+      cyan: '<%= Color::CYAN %>',
+      lightCyan: '<%= Color::CYAN %>',
+      white: '<%= Color::WHITE %>',
+      lightWhite: '<%= Color::WHITE %>',
     },
   });
 };
