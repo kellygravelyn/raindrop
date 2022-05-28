@@ -22,11 +22,19 @@
       "foreground": "#5f7acc",
     },
     {
-      "scope": "entity.name",
+      "scope": "entity.other.inherited-class",
       "foreground": "#7f4f9b",
     },
     {
-      "scope": "entity.other.inherited-class",
+      "scope": "support.class",
+      "foreground": "#7f4f9b",
+    },
+    {
+      "scope": "entity.name.tag",
+      "foreground": "#7f4f9b",
+    },
+    {
+      "scope": "variable.other.constant.ruby",
       "foreground": "#7f4f9b",
     },
     {
