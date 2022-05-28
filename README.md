@@ -29,6 +29,8 @@ ln -s $(PWD)/hyper "~/Library/Application Support/Sublime Text 3/Packages/User/r
 ln -s $(PWD)/vscode "~/.vscode/extensions/raindrop"
 ```
 
+Note that VS Code won't automatically reload on changes. You can open the command palette and choose "Reload Window" if you change the theme, but note that this seems to clear the undo history.
+
 ### iTerm 2
 
 As far as I can tell you have to manually set the colors. Open up Preferences and go to the Profiles tab at the top and then the Colors tab inside there. Use the dropdown in the bottom right corner to Import the theme. Then click on it to apply it.
