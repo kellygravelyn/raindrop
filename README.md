@@ -20,7 +20,7 @@ ln -s $(PWD)/hyper ~/.hyper_plugins/local/hyper-raindrop
 ### Sublime Text
 
 ```sh
-ln -s $(PWD)/hyper "~/Library/Application Support/Sublime Text 3/Packages/User/raindrop"
+ln -s $(PWD)/sublime-text "~/Library/Application Support/Sublime Text 3/Packages/User/raindrop"
 ```
 
 ### VS Code
