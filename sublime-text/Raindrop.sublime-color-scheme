@@ -14,27 +14,11 @@
       "foreground": "#c4b7d7",
     },
     {
-      "scope": "keyword",
+      "scope": "keyword, storage, support.type.stdint, punctuation.separator.inheritance.ruby",
       "foreground": "#5f7acc",
     },
     {
-      "scope": "storage",
-      "foreground": "#5f7acc",
-    },
-    {
-      "scope": "entity.other.inherited-class",
-      "foreground": "#7f4f9b",
-    },
-    {
-      "scope": "support.class",
-      "foreground": "#7f4f9b",
-    },
-    {
-      "scope": "entity.name.tag",
-      "foreground": "#7f4f9b",
-    },
-    {
-      "scope": "variable.other.constant.ruby",
+      "scope": "entity.other.inherited-class, entity.name.tag, entity.name.class",
       "foreground": "#7f4f9b",
     },
     {

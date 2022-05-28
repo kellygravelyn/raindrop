@@ -46,8 +46,11 @@ class Color
   SELECTION = Color.new('#c7e3ed')
   DARK_PURPLE = Color.new('#7f4f9b')
   DARK_GRAY_PURPLE = Color.new('#635c6d')
+  FADED_NEARLY_WHITE = Color.new('#e7e7e7')
+  NEARLY_WHITE = Color.new('#eeeeee')
   WHITE = Color.new('#f5f5f5')
   LIGHT_GRAY = Color.new('#b5b5b5')
+  EXTRA_LIGHT_GRAY = Color.new('#dedddd')
   BLACK = Color.new('#333333')
 
   CURSOR = DARK_GRAY_PURPLE

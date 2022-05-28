@@ -1,48 +1,44 @@
 {
   "name": "Raindrop",
+  "semanticHighlighting": true,
   "colors": {
     "editor.background": "<%= Color::BACKGROUND %>",
-    "editor.foreground": "<%= Color::FOREGROUND %>"
+    "editor.foreground": "<%= Color::FOREGROUND %>",
+    "sideBar.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
+    "sideBar.foreground": "<%= Color::FOREGROUND %>",
+    "sideBarSectionHeader.foreground": "<%= Color::FOREGROUND %>",
+    "sideBarSectionHeader.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
+    "list.activeSelectionForeground": "<%= Color::FOREGROUND %>",
+    "list.activeSelectionBackground": "<%= Color::NEARLY_WHITE %>",
+    "list.hoverBackground": "<%= Color::FADED_NEARLY_WHITE %>",
+    "list.highlightForeground": "<%= Color::FOREGROUND %>",
+    "activityBar.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
+    "activityBar.foreground": "<%= Color::FOREGROUND %>",
+    "titleBar.activeBackground": "<%= Color::PURPLE %>",
+    "statusBar.background": "<%= Color::PURPLE %>",
+    "statusBar.foreground": "<%= Color::FOREGROUND %>",
+    "statusBar.noFolderBackground": "<%= Color::PURPLE %>",
+    "statusBar.debuggingBackground": "<%= Color::PURPLE %>",
+    "statusBarItem.remoteBackground": "<%= Color::PURPLE %>",
+    "list.errorForeground": "<%= Color::RED %>",
+    "gitDecoration.modifiedResourceForeground": "<%= Color::FOREGROUND %>",
+    "gitDecoration.untrackedResourceForeground": "<%= Color::FOREGROUND %>",
   },
   "tokenColors": [
     {
       "scope": "comment",
       "settings": {
         "foreground": "<%= Color::PURPLE %>",
-    }
+      }
     },
     {
-      "scope": "keyword",
+      "scope": "keyword, storage",
       "settings": {
         "foreground": "<%= Color::BLUE %>",
       }
     },
     {
-      "scope": "storage",
-      "settings": {
-        "foreground": "<%= Color::BLUE %>",
-      }
-    },
-    {
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "<%= Color::DARK_PURPLE %>",
-      }
-    },
-    {
-      "scope": "support.class",
-      "settings": {
-        "foreground": "<%= Color::DARK_PURPLE %>",
-      }
-    },
-    {
-      "scope": "entity.name.tag",
-      "settings": {
-        "foreground": "<%= Color::DARK_PURPLE %>",
-      }
-    },
-    {
-      "scope": "variable.other.constant.ruby",
+      "scope": "entity.other.inherited-class, support.class, entity.name.tag, entity.name.class, entity.name.type.class",
       "settings": {
         "foreground": "<%= Color::DARK_PURPLE %>",
       }
