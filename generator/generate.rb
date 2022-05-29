@@ -1,23 +1,9 @@
-require 'erb'
-require 'fileutils'
-require_relative 'color'
+require_relative 'generator'
+require_relative 'color_set'
 
-def partial(name, values)
-  erb_path = File.join(__dir__, 'templates', '_partials', name + '.erb')
-  erb = ERB.new(File.read(erb_path))
-  erb.result_with_hash(values)
-end
+Dir[File.join(__dir__, "**/*_generator.rb")].each {|file| require file }
 
-Dir.chdir "#{__dir__}/templates" do
-  Dir["**/*.erb"].each do |erb_path|
-    next if erb_path.include?('_partials/')
-
-    out_name = erb_path[0...-4]
-    out_path = File.absolute_path(File.join(__dir__, '..', out_name))
-    puts "Rendering #{erb_path} to #{out_path}"
-
-    erb = ERB.new(File.read(erb_path))
-    FileUtils.mkdir_p(File.dirname(out_path))
-    File.write(out_path, erb.result(binding))
-  end
-end
+self.class.constants
+  .map {|c| self.class.const_get(c)}
+  .select {|c| c.is_a?(Class) && c.included_modules.include?(Generator)}
+  .each {|c| c.new.generate}

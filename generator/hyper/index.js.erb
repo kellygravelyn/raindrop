@@ -1,0 +1,40 @@
+exports.decorateConfig = (config) => {
+  return Object.assign({}, config, {
+    backgroundColor: '<%= background %>',
+    foregroundColor: '<%= foreground %>',
+    cursorColor: '<%= cursor %>',
+    selectionColor: '<%= selection %>',
+    borderColor: '<%= background %>',
+    css: `
+      ${config.css || ''}
+
+      .header_appTitle, .tabs_title {
+        color: <%= foreground %>;
+      }
+      .header_shape {
+        color: <%= foreground %>;
+      }
+      *::-webkit-scrollbar-thumb {
+        background: rgba(196, 183, 215, 0.4);
+      }
+    `,
+    colors: {
+      black: '<%= black %>',
+      lightBlack: '<%= black %>',
+      red: '<%= red %>',
+      lightRed: '<%= red %>',
+      green: '<%= green %>',
+      lightGreen: '<%= green %>',
+      yellow: '<%= yellow %>',
+      lightYellow: '<%= yellow %>',
+      blue: '<%= blue %>',
+      lightBlue: '<%= blue %>',
+      magenta: '<%= purple %>',
+      lightMagenta: '<%= purple %>',
+      cyan: '<%= cyan %>',
+      lightCyan: '<%= cyan %>',
+      white: '<%= white %>',
+      lightWhite: '<%= white %>',
+    },
+  });
+};
