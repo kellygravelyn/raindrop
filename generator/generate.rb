@@ -1,8 +1,12 @@
-require_relative 'generator'
-require_relative 'color_set'
+# Require lib first
+Dir[File.join(__dir__, "lib/*.rb")].each {|f| require f}
 
-Dir[File.join(__dir__, "**/*_generator.rb")].each {|file| require file }
+# Require every other file
+Dir[File.join(__dir__, "**/*.rb")].each do |file|
+  require file unless file === File.absolute_path(__FILE__)
+end
 
+# Run all generators
 self.class.constants
   .map {|c| self.class.const_get(c)}
   .select {|c| c.is_a?(Class) && c.included_modules.include?(Generator)}
