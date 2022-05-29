@@ -6,13 +6,14 @@ module Generator
   ROOT_DIR = File.join(GENERATOR_DIR, '..')
 
   def generate
+    puts "Generating theme for #{name}"
+
     Dir.chdir(File.join(GENERATOR_DIR, name)) do
       Dir["*.erb"].each do |erb_path|
         next if erb_path.include?('_partials/')
 
         out_file = erb_path[0...-4]
         out_path = File.absolute_path(File.join(ROOT_DIR, name, out_file))
-        puts "Rendering #{erb_path} to #{out_path}"
 
         FileUtils.mkdir_p(File.dirname(out_path))
 
