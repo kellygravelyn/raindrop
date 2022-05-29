@@ -2,22 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <%= partial 'itermcolor', { name: 'Ansi 0 Color', color: black } %>
-  <%= partial 'itermcolor', { name: 'Ansi 8 Color', color: black } %>
-  <%= partial 'itermcolor', { name: 'Ansi 1 Color', color: red } %>
-  <%= partial 'itermcolor', { name: 'Ansi 9 Color', color: red } %>
-  <%= partial 'itermcolor', { name: 'Ansi 2 Color', color: green } %>
-  <%= partial 'itermcolor', { name: 'Ansi 10 Color', color: green } %>
-  <%= partial 'itermcolor', { name: 'Ansi 3 Color', color: yellow } %>
-  <%= partial 'itermcolor', { name: 'Ansi 11 Color', color: yellow } %>
-  <%= partial 'itermcolor', { name: 'Ansi 4 Color', color: blue } %>
-  <%= partial 'itermcolor', { name: 'Ansi 12 Color', color: blue } %>
-  <%= partial 'itermcolor', { name: 'Ansi 5 Color', color: purple } %>
-  <%= partial 'itermcolor', { name: 'Ansi 13 Color', color: purple } %>
-  <%= partial 'itermcolor', { name: 'Ansi 6 Color', color: cyan } %>
-  <%= partial 'itermcolor', { name: 'Ansi 14 Color', color: cyan } %>
-  <%= partial 'itermcolor', { name: 'Ansi 7 Color', color: white } %>
-  <%= partial 'itermcolor', { name: 'Ansi 15 Color', color: white } %>
+  <% ansi_colors.each_with_index do |c, i| %>
+  <%= partial 'itermcolor', { name: "Ansi #{i} Color", color: c } %>
+  <% end %>
   <%= partial 'itermcolor', { name: 'Background Color', color: background } %>
   <%= partial 'itermcolor', { name: 'Cursor Color', color: cursor } %>
   <%= partial 'itermcolor', { name: 'Cursor Text Color', color: white } %>
