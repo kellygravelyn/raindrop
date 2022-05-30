@@ -1,5 +1,5 @@
 class VSCodeGenerator
-  include Generator
+  include ErbGenerator
   include EditorColorSet
 
   def name; 'vscode'; end

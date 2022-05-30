@@ -1,44 +1,35 @@
 {
   "name": "Raindrop Color Scheme",
-  "globals":
-  {
+  "globals": {
     "background": "#f5f5f5",
     "foreground": "#333333",
     "caret": "#635c6d",
-    "selection": "#c7e3ed",
+    "selection": "#c7e3ed"
   },
-  "rules":
-  [
-    
+  "rules": [
     {
       "scope": "comment",
-      "foreground": "#c4b7d7",
+      "foreground": "#c4b7d7"
     },
-    
     {
       "scope": "keyword, storage, support.type.stdint, punctuation.separator.inheritance.ruby",
-      "foreground": "#5f7acc",
+      "foreground": "#5f7acc"
     },
-    
     {
       "scope": "entity.other.inherited-class, entity.name.tag, entity.name.class",
-      "foreground": "#7f4f9b",
+      "foreground": "#7f4f9b"
     },
-    
     {
       "scope": "string",
-      "foreground": "#65a34c",
+      "foreground": "#65a34c"
     },
-    
     {
       "scope": "constant.numeric",
-      "foreground": "#bca46d",
+      "foreground": "#bca46d"
     },
-    
     {
       "scope": "invalid",
-      "foreground": "#cc5555",
-    },
-    
-  ],
+      "foreground": "#cc5555"
+    }
+  ]
 }

@@ -1,5 +1,5 @@
 class WindowsTerminalGenerator
-  include Generator
+  include ErbGenerator
   include TerminalColorSet
 
   def name; 'windows-terminal'; end

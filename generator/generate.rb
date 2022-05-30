@@ -10,4 +10,8 @@ end
 self.class.constants
   .map {|c| self.class.const_get(c)}
   .select {|c| c.is_a?(Class) && c.included_modules.include?(Generator)}
-  .each {|c| c.new.generate}
+  .each do |c|
+    g = c.new
+    puts "Generating theme for #{g.name}"
+    g.generate
+  end

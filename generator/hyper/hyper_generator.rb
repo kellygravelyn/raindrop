@@ -1,5 +1,5 @@
 class HyperGenerator
-  include Generator
+  include ErbGenerator
   include TerminalColorSet
 
   def name; 'hyper'; end
