@@ -13,25 +13,4 @@ module TerminalColorSet
   def purple; Color::PURPLE; end
   def cyan; Color::CYAN; end
   def white; Color::WHITE; end
-
-  def ansi_colors
-    [
-      black,
-      red,
-      green,
-      yellow,
-      blue,
-      purple,
-      cyan,
-      white,
-      black,
-      red,
-      green,
-      yellow,
-      blue,
-      purple,
-      cyan,
-      white,
-    ]
-  end
 end
