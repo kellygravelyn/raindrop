@@ -15,14 +15,14 @@
         "id": "raindrop-theme",
         "label": "Raindrop",
         "uiTheme": "vs",
-        "path": "./themes/Raindrop-color-theme.json"
+        "path": "./Raindrop-color-theme.json"
       }
     ],
     "iconThemes": [
       {
         "id": "raindrop-icons",
         "label": "Raindrop FileIcons",
-        "path": "./icons/Raindrop-icon-theme.json"
+        "path": "./Raindrop-icon-theme.json"
       }
     ]
   }

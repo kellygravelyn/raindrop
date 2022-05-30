@@ -1,415 +1,415 @@
 {
   "iconDefinitions": {
     "file_type_access": {
-      "iconPath": "file_type_access@3x.png"
+      "iconPath": "icons/file_type_access@3x.png"
     },
     "file_type_actionscript": {
-      "iconPath": "file_type_actionscript@3x.png"
+      "iconPath": "icons/file_type_actionscript@3x.png"
     },
     "file_type_ae": {
-      "iconPath": "file_type_ae@3x.png"
+      "iconPath": "icons/file_type_ae@3x.png"
     },
     "file_type_ai": {
-      "iconPath": "file_type_ai@3x.png"
+      "iconPath": "icons/file_type_ai@3x.png"
     },
     "file_type_angular": {
-      "iconPath": "file_type_angular@3x.png"
+      "iconPath": "icons/file_type_angular@3x.png"
     },
     "file_type_applescript": {
-      "iconPath": "file_type_applescript@3x.png"
+      "iconPath": "icons/file_type_applescript@3x.png"
     },
     "file_type_archive": {
-      "iconPath": "file_type_archive@3x.png"
+      "iconPath": "icons/file_type_archive@3x.png"
     },
     "file_type_arduino": {
-      "iconPath": "file_type_arduino@3x.png"
+      "iconPath": "icons/file_type_arduino@3x.png"
     },
     "file_type_audio": {
-      "iconPath": "file_type_audio@3x.png"
+      "iconPath": "icons/file_type_audio@3x.png"
     },
     "file_type_babel": {
-      "iconPath": "file_type_babel@3x.png"
+      "iconPath": "icons/file_type_babel@3x.png"
     },
     "file_type_binary": {
-      "iconPath": "file_type_binary@3x.png"
+      "iconPath": "icons/file_type_binary@3x.png"
     },
     "file_type_blade": {
-      "iconPath": "file_type_blade@3x.png"
+      "iconPath": "icons/file_type_blade@3x.png"
     },
     "file_type_bower": {
-      "iconPath": "file_type_bower@3x.png"
+      "iconPath": "icons/file_type_bower@3x.png"
     },
     "file_type_c": {
-      "iconPath": "file_type_c@3x.png"
+      "iconPath": "icons/file_type_c@3x.png"
     },
     "file_type_cad": {
-      "iconPath": "file_type_cad@3x.png"
+      "iconPath": "icons/file_type_cad@3x.png"
     },
     "file_type_cf": {
-      "iconPath": "file_type_cf@3x.png"
+      "iconPath": "icons/file_type_cf@3x.png"
     },
     "file_type_circleci": {
-      "iconPath": "file_type_circleci@3x.png"
+      "iconPath": "icons/file_type_circleci@3x.png"
     },
     "file_type_clojure": {
-      "iconPath": "file_type_clojure@3x.png"
+      "iconPath": "icons/file_type_clojure@3x.png"
     },
     "file_type_cmake": {
-      "iconPath": "file_type_cmake@3x.png"
+      "iconPath": "icons/file_type_cmake@3x.png"
     },
     "file_type_coffeescript": {
-      "iconPath": "file_type_coffeescript@3x.png"
+      "iconPath": "icons/file_type_coffeescript@3x.png"
     },
     "file_type_composer": {
-      "iconPath": "file_type_composer@3x.png"
+      "iconPath": "icons/file_type_composer@3x.png"
     },
     "file_type_cpp": {
-      "iconPath": "file_type_cpp@3x.png"
+      "iconPath": "icons/file_type_cpp@3x.png"
     },
     "file_type_crystal": {
-      "iconPath": "file_type_crystal@3x.png"
+      "iconPath": "icons/file_type_crystal@3x.png"
     },
     "file_type_csharp": {
-      "iconPath": "file_type_csharp@3x.png"
+      "iconPath": "icons/file_type_csharp@3x.png"
     },
     "file_type_css": {
-      "iconPath": "file_type_css@3x.png"
+      "iconPath": "icons/file_type_css@3x.png"
     },
     "file_type_csv": {
-      "iconPath": "file_type_csv@3x.png"
+      "iconPath": "icons/file_type_csv@3x.png"
     },
     "file_type_dart": {
-      "iconPath": "file_type_dart@3x.png"
+      "iconPath": "icons/file_type_dart@3x.png"
     },
     "file_type_default": {
-      "iconPath": "file_type_default@3x.png"
+      "iconPath": "icons/file_type_default@3x.png"
     },
     "file_type_dlang": {
-      "iconPath": "file_type_dlang@3x.png"
+      "iconPath": "icons/file_type_dlang@3x.png"
     },
     "file_type_docker": {
-      "iconPath": "file_type_docker@3x.png"
+      "iconPath": "icons/file_type_docker@3x.png"
     },
     "file_type_dotnet": {
-      "iconPath": "file_type_dotnet@3x.png"
+      "iconPath": "icons/file_type_dotnet@3x.png"
     },
     "file_type_editorconfig": {
-      "iconPath": "file_type_editorconfig@3x.png"
+      "iconPath": "icons/file_type_editorconfig@3x.png"
     },
     "file_type_ejs": {
-      "iconPath": "file_type_ejs@3x.png"
+      "iconPath": "icons/file_type_ejs@3x.png"
     },
     "file_type_elm": {
-      "iconPath": "file_type_elm@3x.png"
+      "iconPath": "icons/file_type_elm@3x.png"
     },
     "file_type_erlang": {
-      "iconPath": "file_type_erlang@3x.png"
+      "iconPath": "icons/file_type_erlang@3x.png"
     },
     "file_type_eslint": {
-      "iconPath": "file_type_eslint@3x.png"
+      "iconPath": "icons/file_type_eslint@3x.png"
     },
     "file_type_ex": {
-      "iconPath": "file_type_ex@3x.png"
+      "iconPath": "icons/file_type_ex@3x.png"
     },
     "file_type_excel": {
-      "iconPath": "file_type_excel@3x.png"
+      "iconPath": "icons/file_type_excel@3x.png"
     },
-    "file_type_fixedform": {
-      "iconPath": "file_type_fixedform-fortran@3x.png"
+    "file_type_fixedform-fortran": {
+      "iconPath": "icons/file_type_fixedform@3x-fortran.png"
     },
     "file_type_font": {
-      "iconPath": "file_type_font@3x.png"
+      "iconPath": "icons/file_type_font@3x.png"
     },
     "file_type_git": {
-      "iconPath": "file_type_git@3x.png"
+      "iconPath": "icons/file_type_git@3x.png"
     },
     "file_type_go": {
-      "iconPath": "file_type_go@3x.png"
+      "iconPath": "icons/file_type_go@3x.png"
     },
     "file_type_gradle": {
-      "iconPath": "file_type_gradle@3x.png"
+      "iconPath": "icons/file_type_gradle@3x.png"
     },
     "file_type_graphviz": {
-      "iconPath": "file_type_graphviz@3x.png"
+      "iconPath": "icons/file_type_graphviz@3x.png"
     },
     "file_type_groovy": {
-      "iconPath": "file_type_groovy@3x.png"
+      "iconPath": "icons/file_type_groovy@3x.png"
     },
     "file_type_gruntfile": {
-      "iconPath": "file_type_gruntfile@3x.png"
+      "iconPath": "icons/file_type_gruntfile@3x.png"
     },
     "file_type_gulpfile": {
-      "iconPath": "file_type_gulpfile@3x.png"
+      "iconPath": "icons/file_type_gulpfile@3x.png"
     },
     "file_type_haml": {
-      "iconPath": "file_type_haml@3x.png"
+      "iconPath": "icons/file_type_haml@3x.png"
     },
     "file_type_haskell": {
-      "iconPath": "file_type_haskell@3x.png"
+      "iconPath": "icons/file_type_haskell@3x.png"
     },
     "file_type_haxe": {
-      "iconPath": "file_type_haxe@3x.png"
+      "iconPath": "icons/file_type_haxe@3x.png"
     },
     "file_type_html": {
-      "iconPath": "file_type_html@3x.png"
+      "iconPath": "icons/file_type_html@3x.png"
     },
     "file_type_image": {
-      "iconPath": "file_type_image@3x.png"
+      "iconPath": "icons/file_type_image@3x.png"
     },
     "file_type_imageunsupported": {
-      "iconPath": "file_type_imageunsupported@3x.png"
+      "iconPath": "icons/file_type_imageunsupported@3x.png"
     },
     "file_type_indesign": {
-      "iconPath": "file_type_indesign@3x.png"
+      "iconPath": "icons/file_type_indesign@3x.png"
     },
     "file_type_java": {
-      "iconPath": "file_type_java@3x.png"
+      "iconPath": "icons/file_type_java@3x.png"
     },
     "file_type_js": {
-      "iconPath": "file_type_js@3x.png"
+      "iconPath": "icons/file_type_js@3x.png"
     },
     "file_type_json": {
-      "iconPath": "file_type_json@3x.png"
+      "iconPath": "icons/file_type_json@3x.png"
     },
     "file_type_jsp": {
-      "iconPath": "file_type_jsp@3x.png"
+      "iconPath": "icons/file_type_jsp@3x.png"
     },
     "file_type_jsx": {
-      "iconPath": "file_type_jsx@3x.png"
+      "iconPath": "icons/file_type_jsx@3x.png"
     },
     "file_type_julia": {
-      "iconPath": "file_type_julia@3x.png"
+      "iconPath": "icons/file_type_julia@3x.png"
     },
     "file_type_kotlin": {
-      "iconPath": "file_type_kotlin@3x.png"
+      "iconPath": "icons/file_type_kotlin@3x.png"
     },
     "file_type_less": {
-      "iconPath": "file_type_less@3x.png"
+      "iconPath": "icons/file_type_less@3x.png"
     },
     "file_type_license": {
-      "iconPath": "file_type_license@3x.png"
+      "iconPath": "icons/file_type_license@3x.png"
     },
     "file_type_liquid": {
-      "iconPath": "file_type_liquid@3x.png"
+      "iconPath": "icons/file_type_liquid@3x.png"
     },
     "file_type_lisp": {
-      "iconPath": "file_type_lisp@3x.png"
+      "iconPath": "icons/file_type_lisp@3x.png"
     },
     "file_type_lock": {
-      "iconPath": "file_type_lock@3x.png"
+      "iconPath": "icons/file_type_lock@3x.png"
     },
     "file_type_log": {
-      "iconPath": "file_type_log@3x.png"
+      "iconPath": "icons/file_type_log@3x.png"
     },
     "file_type_lsl": {
-      "iconPath": "file_type_lsl@3x.png"
+      "iconPath": "icons/file_type_lsl@3x.png"
     },
     "file_type_lua": {
-      "iconPath": "file_type_lua@3x.png"
+      "iconPath": "icons/file_type_lua@3x.png"
     },
     "file_type_markdown": {
-      "iconPath": "file_type_markdown@3x.png"
+      "iconPath": "icons/file_type_markdown@3x.png"
     },
     "file_type_markup": {
-      "iconPath": "file_type_markup@3x.png"
+      "iconPath": "icons/file_type_markup@3x.png"
     },
     "file_type_matlab": {
-      "iconPath": "file_type_matlab@3x.png"
+      "iconPath": "icons/file_type_matlab@3x.png"
     },
     "file_type_maya": {
-      "iconPath": "file_type_maya@3x.png"
+      "iconPath": "icons/file_type_maya@3x.png"
     },
     "file_type_mint": {
-      "iconPath": "file_type_mint@3x.png"
+      "iconPath": "icons/file_type_mint@3x.png"
     },
-    "file_type_modern": {
-      "iconPath": "file_type_modern-fortran@3x.png"
+    "file_type_modern-fortran": {
+      "iconPath": "icons/file_type_modern@3x-fortran.png"
     },
     "file_type_mustache": {
-      "iconPath": "file_type_mustache@3x.png"
+      "iconPath": "icons/file_type_mustache@3x.png"
     },
     "file_type_nginx": {
-      "iconPath": "file_type_nginx@3x.png"
+      "iconPath": "icons/file_type_nginx@3x.png"
     },
     "file_type_nodejs": {
-      "iconPath": "file_type_nodejs@3x.png"
+      "iconPath": "icons/file_type_nodejs@3x.png"
     },
     "file_type_note": {
-      "iconPath": "file_type_note@3x.png"
+      "iconPath": "icons/file_type_note@3x.png"
     },
     "file_type_npm": {
-      "iconPath": "file_type_npm@3x.png"
+      "iconPath": "icons/file_type_npm@3x.png"
     },
     "file_type_nsis": {
-      "iconPath": "file_type_nsis@3x.png"
+      "iconPath": "icons/file_type_nsis@3x.png"
     },
     "file_type_ocaml": {
-      "iconPath": "file_type_ocaml@3x.png"
+      "iconPath": "icons/file_type_ocaml@3x.png"
     },
     "file_type_onenote": {
-      "iconPath": "file_type_onenote@3x.png"
+      "iconPath": "icons/file_type_onenote@3x.png"
     },
     "file_type_pcb": {
-      "iconPath": "file_type_pcb@3x.png"
+      "iconPath": "icons/file_type_pcb@3x.png"
     },
     "file_type_pdf": {
-      "iconPath": "file_type_pdf@3x.png"
+      "iconPath": "icons/file_type_pdf@3x.png"
     },
     "file_type_perl": {
-      "iconPath": "file_type_perl@3x.png"
+      "iconPath": "icons/file_type_perl@3x.png"
     },
     "file_type_php": {
-      "iconPath": "file_type_php@3x.png"
+      "iconPath": "icons/file_type_php@3x.png"
     },
     "file_type_plist": {
-      "iconPath": "file_type_plist@3x.png"
+      "iconPath": "icons/file_type_plist@3x.png"
     },
     "file_type_postcss": {
-      "iconPath": "file_type_postcss@3x.png"
+      "iconPath": "icons/file_type_postcss@3x.png"
     },
     "file_type_powerpoint": {
-      "iconPath": "file_type_powerpoint@3x.png"
+      "iconPath": "icons/file_type_powerpoint@3x.png"
     },
     "file_type_powershell": {
-      "iconPath": "file_type_powershell@3x.png"
+      "iconPath": "icons/file_type_powershell@3x.png"
     },
     "file_type_preferences": {
-      "iconPath": "file_type_preferences@3x.png"
+      "iconPath": "icons/file_type_preferences@3x.png"
     },
     "file_type_premiere": {
-      "iconPath": "file_type_premiere@3x.png"
+      "iconPath": "icons/file_type_premiere@3x.png"
     },
     "file_type_procfile": {
-      "iconPath": "file_type_procfile@3x.png"
+      "iconPath": "icons/file_type_procfile@3x.png"
     },
     "file_type_psd": {
-      "iconPath": "file_type_psd@3x.png"
+      "iconPath": "icons/file_type_psd@3x.png"
     },
     "file_type_pug": {
-      "iconPath": "file_type_pug@3x.png"
+      "iconPath": "icons/file_type_pug@3x.png"
     },
     "file_type_puppet": {
-      "iconPath": "file_type_puppet@3x.png"
+      "iconPath": "icons/file_type_puppet@3x.png"
     },
     "file_type_python": {
-      "iconPath": "file_type_python@3x.png"
+      "iconPath": "icons/file_type_python@3x.png"
     },
     "file_type_r": {
-      "iconPath": "file_type_r@3x.png"
+      "iconPath": "icons/file_type_r@3x.png"
     },
     "file_type_rails": {
-      "iconPath": "file_type_rails@3x.png"
+      "iconPath": "icons/file_type_rails@3x.png"
     },
     "file_type_riot": {
-      "iconPath": "file_type_riot@3x.png"
+      "iconPath": "icons/file_type_riot@3x.png"
     },
     "file_type_ruby": {
-      "iconPath": "file_type_ruby@3x.png"
+      "iconPath": "icons/file_type_ruby@3x.png"
     },
     "file_type_rust": {
-      "iconPath": "file_type_rust@3x.png"
+      "iconPath": "icons/file_type_rust@3x.png"
     },
     "file_type_sass": {
-      "iconPath": "file_type_sass@3x.png"
+      "iconPath": "icons/file_type_sass@3x.png"
     },
     "file_type_scala": {
-      "iconPath": "file_type_scala@3x.png"
+      "iconPath": "icons/file_type_scala@3x.png"
     },
     "file_type_scss": {
-      "iconPath": "file_type_scss@3x.png"
+      "iconPath": "icons/file_type_scss@3x.png"
     },
     "file_type_settings": {
-      "iconPath": "file_type_settings@3x.png"
+      "iconPath": "icons/file_type_settings@3x.png"
     },
     "file_type_shell": {
-      "iconPath": "file_type_shell@3x.png"
+      "iconPath": "icons/file_type_shell@3x.png"
     },
     "file_type_sketch": {
-      "iconPath": "file_type_sketch@3x.png"
+      "iconPath": "icons/file_type_sketch@3x.png"
     },
     "file_type_slim": {
-      "iconPath": "file_type_slim@3x.png"
+      "iconPath": "icons/file_type_slim@3x.png"
     },
     "file_type_source": {
-      "iconPath": "file_type_source@3x.png"
+      "iconPath": "icons/file_type_source@3x.png"
     },
     "file_type_sql": {
-      "iconPath": "file_type_sql@3x.png"
+      "iconPath": "icons/file_type_sql@3x.png"
     },
     "file_type_stata": {
-      "iconPath": "file_type_stata@3x.png"
+      "iconPath": "icons/file_type_stata@3x.png"
     },
     "file_type_stylelint": {
-      "iconPath": "file_type_stylelint@3x.png"
+      "iconPath": "icons/file_type_stylelint@3x.png"
     },
     "file_type_stylus": {
-      "iconPath": "file_type_stylus@3x.png"
+      "iconPath": "icons/file_type_stylus@3x.png"
     },
     "file_type_sublime": {
-      "iconPath": "file_type_sublime@3x.png"
+      "iconPath": "icons/file_type_sublime@3x.png"
     },
     "file_type_svelte": {
-      "iconPath": "file_type_svelte@3x.png"
+      "iconPath": "icons/file_type_svelte@3x.png"
     },
     "file_type_svg": {
-      "iconPath": "file_type_svg@3x.png"
+      "iconPath": "icons/file_type_svg@3x.png"
     },
     "file_type_swift": {
-      "iconPath": "file_type_swift@3x.png"
+      "iconPath": "icons/file_type_swift@3x.png"
     },
     "file_type_tcl": {
-      "iconPath": "file_type_tcl@3x.png"
+      "iconPath": "icons/file_type_tcl@3x.png"
     },
     "file_type_tern": {
-      "iconPath": "file_type_tern@3x.png"
+      "iconPath": "icons/file_type_tern@3x.png"
     },
     "file_type_terraform": {
-      "iconPath": "file_type_terraform@3x.png"
+      "iconPath": "icons/file_type_terraform@3x.png"
     },
     "file_type_tex": {
-      "iconPath": "file_type_tex@3x.png"
+      "iconPath": "icons/file_type_tex@3x.png"
     },
     "file_type_text": {
-      "iconPath": "file_type_text@3x.png"
+      "iconPath": "icons/file_type_text@3x.png"
     },
     "file_type_textile": {
-      "iconPath": "file_type_textile@3x.png"
+      "iconPath": "icons/file_type_textile@3x.png"
     },
     "file_type_todo": {
-      "iconPath": "file_type_todo@3x.png"
+      "iconPath": "icons/file_type_todo@3x.png"
     },
     "file_type_twig": {
-      "iconPath": "file_type_twig@3x.png"
+      "iconPath": "icons/file_type_twig@3x.png"
     },
     "file_type_typescript": {
-      "iconPath": "file_type_typescript@3x.png"
+      "iconPath": "icons/file_type_typescript@3x.png"
     },
     "file_type_video": {
-      "iconPath": "file_type_video@3x.png"
+      "iconPath": "icons/file_type_video@3x.png"
     },
     "file_type_vim": {
-      "iconPath": "file_type_vim@3x.png"
+      "iconPath": "icons/file_type_vim@3x.png"
     },
     "file_type_vue": {
-      "iconPath": "file_type_vue@3x.png"
+      "iconPath": "icons/file_type_vue@3x.png"
     },
     "file_type_webpack": {
-      "iconPath": "file_type_webpack@3x.png"
+      "iconPath": "icons/file_type_webpack@3x.png"
     },
     "file_type_windows": {
-      "iconPath": "file_type_windows@3x.png"
+      "iconPath": "icons/file_type_windows@3x.png"
     },
     "file_type_word": {
-      "iconPath": "file_type_word@3x.png"
+      "iconPath": "icons/file_type_word@3x.png"
     },
     "file_type_xml": {
-      "iconPath": "file_type_xml@3x.png"
+      "iconPath": "icons/file_type_xml@3x.png"
     },
     "file_type_yaml": {
-      "iconPath": "file_type_yaml@3x.png"
+      "iconPath": "icons/file_type_yaml@3x.png"
     },
     "file_type_yarn": {
-      "iconPath": "file_type_yarn@3x.png"
+      "iconPath": "icons/file_type_yarn@3x.png"
     }
   },
   "file": "file_type_default",
@@ -463,7 +463,7 @@
     "eslint": "file_type_eslint",
     "ex": "file_type_ex",
     "excel": "file_type_excel",
-    "fixedform": "file_type_fixedform",
+    "fixedform-fortran": "file_type_fixedform-fortran",
     "font": "file_type_font",
     "git": "file_type_git",
     "go": "file_type_go",
@@ -476,10 +476,11 @@
     "haskell": "file_type_haskell",
     "haxe": "file_type_haxe",
     "html": "file_type_html",
+    "image": "file_type_image",
     "imageunsupported": "file_type_imageunsupported",
     "indesign": "file_type_indesign",
     "java": "file_type_java",
-    "javascript": "file_type_js",
+    "js": "file_type_js",
     "json": "file_type_json",
     "jsp": "file_type_jsp",
     "jsx": "file_type_jsx",
@@ -498,7 +499,7 @@
     "matlab": "file_type_matlab",
     "maya": "file_type_maya",
     "mint": "file_type_mint",
-    "modern": "file_type_modern",
+    "modern-fortran": "file_type_modern-fortran",
     "mustache": "file_type_mustache",
     "nginx": "file_type_nginx",
     "nodejs": "file_type_nodejs",
@@ -560,6 +561,7 @@
     "word": "file_type_word",
     "xml": "file_type_xml",
     "yaml": "file_type_yaml",
-    "yarn": "file_type_yarn"
+    "yarn": "file_type_yarn",
+    "javascript": "file_type_js"
   }
 }
