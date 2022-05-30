@@ -2,9 +2,7 @@
 Dir[File.join(__dir__, "lib/*.rb")].each {|f| require f}
 
 # Require all generators
-Dir[File.join(__dir__, "generators/**/*.rb")].each do |file|
-  require file unless file === File.absolute_path(__FILE__)
-end
+Dir[File.join(__dir__, "generators/**/*_generator.rb")].each {|f| require f}
 
 # Run all generators
 self.class.constants
