@@ -2,36 +2,18 @@
   "name": "Raindrop Color Scheme",
   "globals":
   {
-    "background": "<%= Color::BACKGROUND %>",
-    "foreground": "<%= Color::FOREGROUND %>",
-    "caret": "<%= Color::CURSOR %>",
-    "selection": "<%= Color::SELECTION %>",
+    "background": "<%= background %>",
+    "foreground": "<%= foreground %>",
+    "caret": "<%= cursor %>",
+    "selection": "<%= selection %>",
   },
   "rules":
   [
+    <% text_mate_scopes.each do |s| %>
     {
-      "scope": "comment",
-      "foreground": "<%= Color::PURPLE %>",
+      "scope": "<%= s['scope'] %>",
+      "foreground": "<%= s['foreground'] %>",
     },
-    {
-      "scope": "keyword, storage, support.type.stdint, punctuation.separator.inheritance.ruby",
-      "foreground": "<%= Color::BLUE %>",
-    },
-    {
-      "scope": "entity.other.inherited-class, entity.name.tag, entity.name.class",
-      "foreground": "<%= Color::DARK_PURPLE %>",
-    },
-    {
-      "scope": "string",
-      "foreground": "<%= Color::GREEN %>",
-    },
-    {
-      "scope": "constant.numeric",
-      "foreground": "<%= Color::YELLOW %>",
-    },
-    {
-      "scope": "invalid",
-      "foreground": "<%= Color::RED %>"
-    },
+    <% end %>
   ],
 }

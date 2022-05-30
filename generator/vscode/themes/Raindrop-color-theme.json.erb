@@ -2,64 +2,36 @@
   "name": "Raindrop",
   "semanticHighlighting": true,
   "colors": {
-    "editor.background": "<%= Color::BACKGROUND %>",
-    "editor.foreground": "<%= Color::FOREGROUND %>",
+    "editor.background": "<%= background %>",
+    "editor.foreground": "<%= foreground %>",
     "sideBar.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
-    "sideBar.foreground": "<%= Color::FOREGROUND %>",
-    "sideBarSectionHeader.foreground": "<%= Color::FOREGROUND %>",
+    "sideBar.foreground": "<%= foreground %>",
+    "sideBarSectionHeader.foreground": "<%= foreground %>",
     "sideBarSectionHeader.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
-    "list.activeSelectionForeground": "<%= Color::FOREGROUND %>",
+    "list.activeSelectionForeground": "<%= foreground %>",
     "list.activeSelectionBackground": "<%= Color::NEARLY_WHITE %>",
     "list.hoverBackground": "<%= Color::FADED_NEARLY_WHITE %>",
-    "list.highlightForeground": "<%= Color::FOREGROUND %>",
+    "list.highlightForeground": "<%= foreground %>",
     "activityBar.background": "<%= Color::EXTRA_LIGHT_GRAY %>",
-    "activityBar.foreground": "<%= Color::FOREGROUND %>",
-    "titleBar.activeBackground": "<%= Color::PURPLE %>",
+    "activityBar.foreground": "<%= foreground %>",
+    "titleBar.activeBackground": "<%= title_bar %>",
     "statusBar.background": "<%= Color::PURPLE %>",
-    "statusBar.foreground": "<%= Color::FOREGROUND %>",
+    "statusBar.foreground": "<%= foreground %>",
     "statusBar.noFolderBackground": "<%= Color::PURPLE %>",
     "statusBar.debuggingBackground": "<%= Color::PURPLE %>",
     "statusBarItem.remoteBackground": "<%= Color::PURPLE %>",
     "list.errorForeground": "<%= Color::RED %>",
-    "gitDecoration.modifiedResourceForeground": "<%= Color::FOREGROUND %>",
-    "gitDecoration.untrackedResourceForeground": "<%= Color::FOREGROUND %>"
+    "gitDecoration.modifiedResourceForeground": "<%= foreground %>",
+    "gitDecoration.untrackedResourceForeground": "<%= foreground %>"
   },
   "tokenColors": [
+    <% text_mate_scopes.each do |s| %>
     {
-      "scope": "comment",
+      "scope": "<%= s['scope'] %>",
       "settings": {
-        "foreground": "<%= Color::PURPLE %>"
-      }
+        "foreground": "<%= s['foreground'] %>",
+      },
     },
-    {
-      "scope": "keyword, storage",
-      "settings": {
-        "foreground": "<%= Color::BLUE %>"
-      }
-    },
-    {
-      "scope": "entity.other.inherited-class, support.class, entity.name.tag, entity.name.class, entity.name.type.class",
-      "settings": {
-        "foreground": "<%= Color::DARK_PURPLE %>"
-      }
-    },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "<%= Color::GREEN %>"
-      }
-    },
-    {
-      "scope": "constant.numeric",
-      "settings": {
-        "foreground": "<%= Color::YELLOW %>"
-      }
-    },
-    {
-      "scope": "invalid",
-      "settings": {
-        "foreground": "<%= Color::RED %>"
-      }
-    }
+    <% end %>
   ]
 }

@@ -9,7 +9,7 @@ module Generator
     puts "Generating theme for #{name}"
 
     Dir.chdir(File.join(GENERATOR_DIR, name)) do
-      Dir["*.erb"].each do |erb_path|
+      Dir["**/*.erb"].each do |erb_path|
         next if erb_path.include?('_partials/')
 
         out_file = erb_path[0...-4]

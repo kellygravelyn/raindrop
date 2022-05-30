@@ -25,41 +25,48 @@
     "gitDecoration.untrackedResourceForeground": "#333333"
   },
   "tokenColors": [
+    
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#c4b7d7"
-      }
+        "foreground": "#c4b7d7",
+      },
     },
+    
     {
-      "scope": "keyword, storage",
+      "scope": "keyword, storage, support.type.stdint, punctuation.separator.inheritance.ruby",
       "settings": {
-        "foreground": "#5f7acc"
-      }
+        "foreground": "#5f7acc",
+      },
     },
+    
     {
-      "scope": "entity.other.inherited-class, support.class, entity.name.tag, entity.name.class, entity.name.type.class",
+      "scope": "entity.other.inherited-class, entity.name.tag, entity.name.class",
       "settings": {
-        "foreground": "#7f4f9b"
-      }
+        "foreground": "#7f4f9b",
+      },
     },
+    
     {
       "scope": "string",
       "settings": {
-        "foreground": "#65a34c"
-      }
+        "foreground": "#65a34c",
+      },
     },
+    
     {
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#bca46d"
-      }
+        "foreground": "#bca46d",
+      },
     },
+    
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#cc5555"
-      }
-    }
+        "foreground": "#cc5555",
+      },
+    },
+    
   ]
 }

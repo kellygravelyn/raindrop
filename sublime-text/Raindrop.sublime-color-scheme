@@ -9,29 +9,36 @@
   },
   "rules":
   [
+    
     {
       "scope": "comment",
       "foreground": "#c4b7d7",
     },
+    
     {
       "scope": "keyword, storage, support.type.stdint, punctuation.separator.inheritance.ruby",
       "foreground": "#5f7acc",
     },
+    
     {
       "scope": "entity.other.inherited-class, entity.name.tag, entity.name.class",
       "foreground": "#7f4f9b",
     },
+    
     {
       "scope": "string",
       "foreground": "#65a34c",
     },
+    
     {
       "scope": "constant.numeric",
       "foreground": "#bca46d",
     },
+    
     {
       "scope": "invalid",
-      "foreground": "#cc5555"
+      "foreground": "#cc5555",
     },
+    
   ],
 }
