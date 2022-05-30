@@ -1,8 +1,8 @@
 # Require lib first
 Dir[File.join(__dir__, "lib/*.rb")].each {|f| require f}
 
-# Require every other file
-Dir[File.join(__dir__, "**/*.rb")].each do |file|
+# Require all generators
+Dir[File.join(__dir__, "generators/**/*.rb")].each do |file|
   require file unless file === File.absolute_path(__FILE__)
 end
 

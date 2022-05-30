@@ -21,6 +21,10 @@ module ErbGenerator
     end
   end
 
+  def source_dir
+    raise StandardError.new('#source_dir needs to be overridden!')
+  end
+
   def partial(partial_name, values)
     erb_path = File.join('_partials', partial_name + '.erb')
     erb = ERB.new(File.read(erb_path), trim_mode: '<>')

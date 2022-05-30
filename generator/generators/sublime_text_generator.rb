@@ -7,8 +7,6 @@ class SublimeTextGenerator
   def name; 'sublime-text'; end
 
   def generate
-    out_dir = File.join(ROOT_DIR, 'sublime-text')
-
     color_scheme = {
       'name' => 'Raindrop Color Scheme',
       'globals' => {
