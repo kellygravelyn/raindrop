@@ -1,26 +1,26 @@
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
-    backgroundColor: '#f5f5f5',
-    foregroundColor: '#333333',
+    backgroundColor: '#f8f8f8',
+    foregroundColor: '#222222',
     cursorColor: '#635c6d',
     selectionColor: '#c7e3ed',
-    borderColor: '#f5f5f5',
+    borderColor: '#f8f8f8',
     css: `
       ${config.css || ''}
 
       .header_appTitle, .tabs_title {
-        color: #333333;
+        color: #222222;
       }
       .header_shape {
-        color: #333333;
+        color: #222222;
       }
       *::-webkit-scrollbar-thumb {
         background: rgba(196, 183, 215, 0.4);
       }
     `,
     colors: {
-      black: '#333333',
-      lightBlack: '#333333',
+      black: '#222222',
+      lightBlack: '#222222',
       red: '#cc5555',
       lightRed: '#cc5555',
       green: '#65a34c',
@@ -33,8 +33,8 @@ exports.decorateConfig = (config) => {
       lightMagenta: '#c4b7d7',
       cyan: '#91cce0',
       lightCyan: '#91cce0',
-      white: '#f5f5f5',
-      lightWhite: '#f5f5f5',
+      white: '#f8f8f8',
+      lightWhite: '#f8f8f8',
     },
   });
 };

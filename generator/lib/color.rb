@@ -21,6 +21,7 @@ class Color
     ColorComponent.new(@hex[5..6])
   end
 
+  # TODO: Better names for predefined colors would probably be good.
   PURPLE = Color.new('#c4b7d7')
   YELLOW = Color.new('#bca46d') # More of an orange but 🤷🏻‍♀️
   RED = Color.new('#cc5555')
@@ -32,10 +33,10 @@ class Color
   DARK_GRAY_PURPLE = Color.new('#635c6d')
   FADED_NEARLY_WHITE = Color.new('#e7e7e7')
   NEARLY_WHITE = Color.new('#eeeeee')
-  WHITE = Color.new('#f5f5f5')
+  WHITE = Color.new('#f8f8f8')
   LIGHT_GRAY = Color.new('#b5b5b5')
   EXTRA_LIGHT_GRAY = Color.new('#dedddd')
-  BLACK = Color.new('#333333')
+  BLACK = Color.new('#222222')
 
   CURSOR = DARK_GRAY_PURPLE
   BACKGROUND = WHITE

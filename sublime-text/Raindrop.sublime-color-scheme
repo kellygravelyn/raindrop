@@ -1,8 +1,8 @@
 {
   "name": "Raindrop Color Scheme",
   "globals": {
-    "background": "#f5f5f5",
-    "foreground": "#333333",
+    "background": "#f8f8f8",
+    "foreground": "#222222",
     "caret": "#635c6d",
     "selection": "#c7e3ed"
   },
