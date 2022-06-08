@@ -33,8 +33,8 @@ exports.decorateConfig = (config) => {
       lightMagenta: '#c4b7d7',
       cyan: '#91cce0',
       lightCyan: '#91cce0',
-      white: '#f8f8f8',
-      lightWhite: '#f8f8f8',
+      white: '#b5b5b5',
+      lightWhite: '#b5b5b5',
     },
   });
 };
