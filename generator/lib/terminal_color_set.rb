@@ -12,5 +12,9 @@ module TerminalColorSet
   def blue; Color::BLUE; end
   def purple; Color::PURPLE; end
   def cyan; Color::CYAN; end
-  def white; Color::WHITE; end
+
+  # Yes this looks weird but we want the white ANSI color to not be the same
+  # as our background or else it might not be visible without a different
+  # background color (which we can't always trust apps to do).
+  def white; Color::LIGHT_GRAY; end
 end
